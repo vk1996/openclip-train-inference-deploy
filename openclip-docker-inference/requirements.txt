@@ -1,0 +1,4 @@
+boto3
+sagemaker-inference
+open_clip_torch
+botocore
