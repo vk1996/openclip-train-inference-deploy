@@ -28,8 +28,4 @@ $sudo docker run -e AWS_ACCESS_KEY_ID=$access_key_id -e AWS_SECRET_ACCESS_KEY=$a
 ##### the docker can be configured to run as a monthly cron-job for the clients #####
 ##### to receive model each month . the train data bucket needs to be parameterized for this ##### 
 
-### ToDo ###
 
-##### For a production ready model, I would like to try to generate synthetic data #####
-##### of images & description based on client's actual data and train on a better GPU EC2 instance #####
-##### to get better embeddings & better cosine similarity score #####

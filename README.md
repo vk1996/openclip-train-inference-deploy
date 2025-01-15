@@ -32,3 +32,8 @@ openclip-train-inference-deploy/
 ### Training notifications / warning via AWS SNS email publish ###
 
 ![notification&warning.png](openclip-docker-training/notification%26warning.png)
+
+### ToDo ###
+
+#### For a production ready model, I would try to generate synthetic data of images & description based on client's actual data ####
+#### and train on a better GPU EC2 instance to get better embeddings & better cosine similarity score ####
