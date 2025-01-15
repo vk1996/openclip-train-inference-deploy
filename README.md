@@ -27,7 +27,7 @@ openclip-train-inference-deploy/
 ![sagemaker-endpoint.png](openclip-docker-training/sagemaker-endpoint.png)
 
 ### Model storing & versioning in S3 ###
-![models3_storage.png](openclip-docker-training/models3_storage.png)
+![models3_storage.png](openclip-docker-training/model_s3_storage.png)
 
 ### Training notifications / warning via AWS SNS email publish ###
 
