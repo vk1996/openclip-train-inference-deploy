@@ -15,4 +15,10 @@
 $python3 sagemaker_inference.py
 ```
 
+##### The below command can be used for testing the Sagemaker endpoint without building it's docker. Also doesn't require any AWS credentials #####
+##### The lambda handler in the below script connects REST API with my existing Sagemaker endpoint ##### 
+
+```
+$python3 lambda_inference.py
+```
 

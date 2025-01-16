@@ -94,7 +94,7 @@ if __name__=="__main__":
                                    endpoint_name=endpoint_name)
         except ClientError as e:
             if e.response['Error']['Code'] == 'ValidationException':
-                endpoint_name = endpoint_name + 'a'
+                endpoint_name = endpoint_name + 'b'
                 sagemaker_model.deploy(initial_instance_count=1, instance_type='ml.c6i.2xlarge',
                                        endpoint_name=endpoint_name)
 

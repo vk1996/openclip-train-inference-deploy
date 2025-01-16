@@ -12,11 +12,19 @@ openclip-train-inference-deploy/
       --README.md
       -- Dockerfile (for sagemaker use only)
       -- sagemaker_inference.py
+      -- lambda_inference.py
 ```
 
 
 #### openclip-docker-training focuses on remote(EC2) / local training, logging,metrics monitoring, model storage , notifications ####
-#### openclip-docker-inference focuses on deploying trained model on AWS Sagemaker endpoint  ####
+#### openclip-docker-inference focuses on deploying trained model on AWS Sagemaker endpoint & invoke it via REST API & AWS Lambda ####
+#### For simply testing the model without AWS credentials, run below cmd to invoke via REST API & AWS Lambda ####
+```
+$cd openclip-docker-inference
+$python3 lambda_inference.py
+```
+#### Note: The configured Sagemaker endpoint for Lambda inference might be turned off for cost $$ reasons , Kindly email vignesh.kotteeswaran@gmail.com before testing ###
+
 
 ### Logging Model metrics ###
 
