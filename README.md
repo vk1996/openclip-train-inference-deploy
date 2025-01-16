@@ -15,7 +15,7 @@ openclip-train-inference-deploy/
 ```
 
 
-#### openclip-docker-training focuses on remote / local training, logging,metrics monitoring, model storage , notifications ####
+#### openclip-docker-training focuses on remote(EC2) / local training, logging,metrics monitoring, model storage , notifications ####
 #### openclip-docker-inference focuses on deploying trained model on AWS Sagemaker endpoint  ####
 
 ### Logging Model metrics ###
