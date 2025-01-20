@@ -25,6 +25,8 @@ $python3 lambda_inference.py
 ```
 #### Note: The configured Sagemaker endpoint for Lambda inference might be turned off for cost $$ reasons , Kindly email vignesh.kotteeswaran@gmail.com before testing ###
 
+### Storing client's monthly training data in S3 ###
+![data_s3_storage.png](openclip-docker-training/data_s3_storage.png)
 
 ### Logging Model metrics ###
 
