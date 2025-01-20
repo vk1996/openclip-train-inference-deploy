@@ -14,6 +14,17 @@ import torch
 from sagemaker import Predictor
 
 def infer(input_data,mode):
+
+    '''
+
+    Args:
+        input_data (str): either input path for image mode or description for text mode
+        mode (str): specify either image or text mode
+
+    Returns:
+        return a Torch tensor
+
+    '''
     if mode=="image":
         with open(input_data, 'rb') as f:
             img_bytes = f.read()

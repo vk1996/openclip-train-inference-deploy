@@ -15,6 +15,16 @@ import torch
 
 
 def infer_from_lambda(input_data,mode):
+    '''
+
+        Args:
+            input_data (str): either input path for image mode or description for text mode
+            mode (str): specify either image or text mode
+
+        Returns:
+            return a Torch tensor or empty list
+
+    '''
     if mode=="image":
         with open("test.png", 'rb') as f:
             img_bytes = f.read()
